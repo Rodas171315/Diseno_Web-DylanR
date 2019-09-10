@@ -1,0 +1,34 @@
+/* __________________________________ Tarea 3 __________________________________ */
+/* ______________________________ Selectores CSS ______________________________ */
+div{
+    color:green;
+}
+/* Aplica estilo a un elemento basándose en el valor de su atributo id. Solo puede haber un elemento con un determinado ID dentro de un documento. */
+#ID{
+    color:blue;
+}
+/* Aplica estilo a todos los elementos basándose en el valor de su atributo class. Pueden haber diversos elementos con un determinado CLASS dentro de un documento. */
+.CLASS{
+    color:red;
+}
+/* > Permite aplicar estilo a cualquier elemento X que es un hijo directo de un elemento D. */
+.D>X{
+    color:purple;
+}
+/* : Permite aplicar estilo a un elemento no sólo en relación con el contenido de la estructura del documento, sino también en relación a los factores externos (eventos), como la historia del navegador o la interacción del usuario. */
+p:hover{
+    color:black;
+    background-color: lightgrey;
+}
+/* [espacio] Permite aplicar estilo a cualquier elemento Y que es un descendiente de un elemento G (que es: un hijo o un hijo de un hijo etc.). */
+#G Y{
+    color:orange;
+}
+/* !important Prioriza el estilo aplicado a un elemento, sin importar posteriores cambios o modificaciones del mismo tipo al mismo elemento. */
+.VIP{
+    color: yellow !important;
+    
+}
+.VIP2{
+    color: brown;
+}
